@@ -1,0 +1,16 @@
+--cpu=Cortex-M4.fp.sp
+".\objects\hardwaresystem_ini.o"
+".\objects\user_defined.o"
+".\objects\stm32f4xx_fsmc.o"
+".\objects\stm324xg_lcd_ili9328.o"
+".\objects\main_samp.o"
+".\objects\game.o"
+".\objects\baseball.o"
+".\objects\driver_spi.o"
+".\objects\touch_functions.o"
+".\objects\touch_module.o"
+".\objects\startup_stm32f407xx.o"
+".\objects\system_stm32f4xx.o"
+--ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Touch_Samp.map" -o .\Objects\Touch_Samp.axf

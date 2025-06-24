@@ -1,0 +1,161 @@
+Dependencies for Project 'Touch_Samp', Target 'RAM_Debug': (DO NOT MODIFY !)
+CompilerVersion: 6140000::V6.14::ARMCLANG
+F (.\User_common\HardwareSystem_Ini.c)(0x681AF112)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./GLCD -I ./User_common -I ./SPI_touch -I ./source -I ./RNG-I./RTE/_RAM_Debug-IC:/Keil_v5/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_ -DBoard_B-o ./objects/hardwaresystem_ini.o -MD)
+I (C:\Keil_v5\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x637449EA)
+I (C:\Keil_v5\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x637449EA)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664BD888)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DDFFD72)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664BD888)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x637449EA)
+F (.\User_common\user_defined.c)(0x681AF112)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./GLCD -I ./User_common -I ./SPI_touch -I ./source -I ./RNG-I./RTE/_RAM_Debug-IC:/Keil_v5/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_ -DBoard_B-o ./objects/user_defined.o -MD)
+I (C:\Keil_v5\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x637449EA)
+I (C:\Keil_v5\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x637449EA)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664BD888)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DDFFD72)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664BD888)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x637449EA)
+I (User_common\user_defined.h)(0x681AF112)
+F (.\GLCD\stm32f4xx_fsmc.c)(0x681AF111)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./GLCD -I ./User_common -I ./SPI_touch -I ./source -I ./RNG-I./RTE/_RAM_Debug-IC:/Keil_v5/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_ -DBoard_B-o ./objects/stm32f4xx_fsmc.o -MD)
+I (GLCD\stm32f4xx_fsmc.h)(0x681AF111)
+I (C:\Keil_v5\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x637449EA)
+I (C:\Keil_v5\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x637449EA)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664BD888)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DDFFD72)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664BD888)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x637449EA)
+F (.\GLCD\stm324xg_lcd_ILI9328.c)(0x681AF111)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./GLCD -I ./User_common -I ./SPI_touch -I ./source -I ./RNG-I./RTE/_RAM_Debug-IC:/Keil_v5/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_ -DBoard_B-o ./objects/stm324xg_lcd_ili9328.o -MD)
+I (GLCD\stm324xg_lcd_sklin.h)(0x681AF111)
+I (C:\Keil_v5\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x637449EA)
+I (C:\Keil_v5\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x637449EA)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664BD888)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DDFFD72)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664BD888)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x637449EA)
+I (GLCD\.\Fonts\fonts.h)(0x681AF112)
+I (GLCD\stm32f4xx_fsmc.h)(0x681AF111)
+I (GLCD\.\Fonts\font12.c)(0x681AF112)
+I (GLCD\.\Fonts\font16.c)(0x681AF112)
+I (GLCD\.\Fonts\font20.c)(0x681AF112)
+I (GLCD\.\Fonts\font24.c)(0x681AF112)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5DDFFD72)
+F (.\source\main_Samp.c)(0x685A3E24)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./GLCD -I ./User_common -I ./SPI_touch -I ./source -I ./RNG-I./RTE/_RAM_Debug-IC:/Keil_v5/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_ -DBoard_B-o ./objects/main_samp.o -MD)
+I (C:\Keil_v5\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x637449EA)
+I (C:\Keil_v5\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x637449EA)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664BD888)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DDFFD72)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664BD888)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x637449EA)
+I (GLCD\stm324xg_lcd_sklin.h)(0x681AF111)
+I (GLCD\.\Fonts\fonts.h)(0x681AF112)
+I (User_common\user_defined.h)(0x681AF112)
+I (SPI_touch\touch_module.h)(0x685124A6)
+I (source\game.h)(0x6853F6B7)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x5DDFFD6C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5DDFFD72)
+I (source\baseball.h)(0x68541E3E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\time.h)(0x5DDFFD6C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5DDFFD6A)
+F (.\source\game.c)(0x685A3F15)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./GLCD -I ./User_common -I ./SPI_touch -I ./source -I ./RNG-I./RTE/_RAM_Debug-IC:/Keil_v5/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_ -DBoard_B-o ./objects/game.o -MD)
+I (source\game.h)(0x6853F6B7)
+I (GLCD\stm324xg_lcd_sklin.h)(0x681AF111)
+I (C:\Keil_v5\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x637449EA)
+I (C:\Keil_v5\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x637449EA)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664BD888)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DDFFD72)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664BD888)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x637449EA)
+I (GLCD\.\Fonts\fonts.h)(0x681AF112)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5DDFFD6A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5DDFFD72)
+I (User_common\user_defined.h)(0x681AF112)
+I (SPI_touch\touch_module.h)(0x685124A6)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x5DDFFD6C)
+I (source\baseball.h)(0x68541E3E)
+F (.\source\baseball.c)(0x68541F87)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./GLCD -I ./User_common -I ./SPI_touch -I ./source -I ./RNG-I./RTE/_RAM_Debug-IC:/Keil_v5/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_ -DBoard_B-o ./objects/baseball.o -MD)
+I (source\baseball.h)(0x68541E3E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DDFFD72)
+F (.\SPI_touch\Driver_SPI.c)(0x681AF112)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./GLCD -I ./User_common -I ./SPI_touch -I ./source -I ./RNG-I./RTE/_RAM_Debug-IC:/Keil_v5/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_ -DBoard_B-o ./objects/driver_spi.o -MD)
+I (C:\Keil_v5\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x637449EA)
+I (C:\Keil_v5\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x637449EA)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664BD888)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DDFFD72)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664BD888)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x637449EA)
+F (.\SPI_touch\touch_functions.c)(0x681DB1FA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./GLCD -I ./User_common -I ./SPI_touch -I ./source -I ./RNG-I./RTE/_RAM_Debug-IC:/Keil_v5/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_ -DBoard_B-o ./objects/touch_functions.o -MD)
+I (C:\Keil_v5\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x637449EA)
+I (C:\Keil_v5\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x637449EA)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664BD888)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DDFFD72)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664BD888)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x637449EA)
+I (GLCD\stm324xg_lcd_sklin.h)(0x681AF111)
+I (GLCD\.\Fonts\fonts.h)(0x681AF112)
+I (SPI_touch\touch_module.h)(0x685124A6)
+F (.\SPI_touch\touch_module.c)(0x6851B74A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./GLCD -I ./User_common -I ./SPI_touch -I ./source -I ./RNG-I./RTE/_RAM_Debug-IC:/Keil_v5/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_ -DBoard_B-o ./objects/touch_module.o -MD)
+I (C:\Keil_v5\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x637449EA)
+I (C:\Keil_v5\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x637449EA)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664BD888)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DDFFD72)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664BD888)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x637449EA)
+I (GLCD\stm324xg_lcd_sklin.h)(0x681AF111)
+I (GLCD\.\Fonts\fonts.h)(0x681AF112)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5DDFFD72)
+F (RTE\Device\STM32F407ZGTx\startup_stm32f407xx.s)(0x6853F2D3)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-3 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_RAM_Debug-IC:/Keil_v5/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 530" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F407xx SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f407xx.o)
+F (RTE\Device\STM32F407ZGTx\system_stm32f4xx.c)(0x681DB7E7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./GLCD -I ./User_common -I ./SPI_touch -I ./source -I ./RNG-I./RTE/_RAM_Debug-IC:/Keil_v5/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_ -DBoard_B-o ./objects/system_stm32f4xx.o -MD)
+I (C:\Keil_v5\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x637449EA)
+I (C:\Keil_v5\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x637449EA)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664BD888)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DDFFD72)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664BD888)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x664BD888)
+I (C:\Keil_v5\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x637449EA)
