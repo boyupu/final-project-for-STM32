@@ -12,7 +12,7 @@
   C:\Keil_v5\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h \
   GLCD\stm324xg_lcd_sklin.h GLCD\.\Fonts\fonts.h \
   User_common\user_defined.h SPI_touch\touch_module.h source\game.h \
-  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\math.h \
-  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h source\baseball.h \
+  source\baseball.h C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\math.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\time.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h

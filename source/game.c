@@ -187,7 +187,7 @@ void ShowPKEndOptions(int playerWin)
     LCD_DisplayStringLineCol(6, 3, "PK high");
     LCD_DisplayStringLineCol(7, 3, "level team?");
     
-    // Draw YES/NO buttons
+// Draw YES/NO buttons
     LCD_SetTextColor(BLUE);   LCD_FillRect(40, 190, 100, 40);
     LCD_SetTextColor(RED);    LCD_FillRect(180,190, 100, 40);
     LCD_SetTextColor(WHITE);  LCD_SetBackColor(BLUE);
@@ -206,7 +206,6 @@ void ShowPKEndOptions(int playerWin)
                 return;
             }
             else if (ts.x >= 180 && ts.x <= 280) {
-                // Back to Practice mode
                 gState = GS_PRACTICE;
                 practiceMode = 1;
                 ResetCommonVars();
@@ -219,7 +218,6 @@ void ShowPKEndOptions(int playerWin)
     LCD_DisplayStringLineCol(2, 3, "COMPUTER WIN");
     delay_ms(2000);
 
-    // Back to Practice mode
     gState = GS_PRACTICE;
     practiceMode = 1;
     ResetCommonVars();
@@ -250,7 +248,7 @@ static void DrawPitcher(int x, int y)
     for (int i = 10; i < 16; ++i) LCD_DrawPixel(x + i, y + 23, DARKGRAY);
     for (int j = -4; j < 0; ++j)
         for (int i = 7; i < 13; ++i)
-            LCD_DrawPixel(x + i, y + j, 0xFD20);          /* ?? */
+            LCD_DrawPixel(x + i, y + j, 0xFD20);
 
     for (int j = 0; j < 3; ++j)
         for (int i = 8; i < 12; ++i)
@@ -264,14 +262,12 @@ static void DrawPitcher(int x, int y)
         for (int i = 18; i <= 20; ++i)
             LCD_DrawPixel(x + i, y + j, WHITE);
 
-    LCD_DrawPixel(x + 18, y + 8, RED);  /*??*/
+    LCD_DrawPixel(x + 18, y + 8, RED);
     LCD_DrawPixel(x + 20, y + 8, RED);
 
-    /* ?? ----------------------------------------------------------*/
-    for (int i = 7; i < 13; ++i) LCD_DrawPixel(x + i, y - 6, CYAN); /* ?? */
-    for (int i = 6; i < 14; ++i) LCD_DrawPixel(x + i, y - 4, CYAN); /* ?? */
+    for (int i = 7; i < 13; ++i) LCD_DrawPixel(x + i, y - 6, CYAN);
+    for (int i = 6; i < 14; ++i) LCD_DrawPixel(x + i, y - 4, CYAN);
 
-    /* ?? ----------------------------------------------------------*/
     for (int j = 8; j < 12; ++j)
         for (int i = -1; i < 3; ++i)
             LCD_DrawPixel(x + i, y + j, BROWN);
@@ -355,6 +351,8 @@ void DrawBat(int show, int x, int y) {
         prevBatY = -1;
     }
 }
+//================================
+//redraw text
 void RedrawFixedTexts(void) {
     if (practiceMode) {
         char status[32];
@@ -374,11 +372,10 @@ void RedrawFixedTexts(void) {
         LCD_SetTextColor(MAGENTA);
         LCD_DisplayStringLineCol(12, 10, text);
     }
-    // Bases
     if (gState == GS_PK) DrawBases();
 }
-
-
+//=================================
+//field element
 void DrawFieldElements(void) {
 	  DrawPixelFieldBackground();
     LCD_SetTextColor(RED);
@@ -413,7 +410,8 @@ void DrawFieldElements(void) {
       LCD_DisplayStringLineCol(2, 0, info);
     }
 }
-
+//===============================
+//new pitch
 void StartNewPitch(void) {
 	
     currentBall.x = 25;
@@ -470,7 +468,8 @@ void StartNewPitch(void) {
         LCD_DisplayStringLineCol(1, 0, text);
     }
 } 
-
+//=======================================
+//update the ball,pitch and hit
 void UpdateBall(void)
 {
     static int prevX = -1, prevY = -1;
@@ -529,25 +528,32 @@ void UpdateBall(void)
     currentBall.x >= 0 && currentBall.x < BSP_LCD_GetXSize() &&
     currentBall.y >= 0 && currentBall.y < BSP_LCD_GetYSize()){
 			
-    if (useLegendBatter && ballHitFly && (gState == GS_HR || gState == GS_PK)) {
-        // Special rainbow trail effect
+    if (useLegendBatter && ballHitFly && (gState == GS_HR || gState == GS_PK)){
+			
+        //legend hitter effect
+			
         static uint16_t trailColors[] = { RED, ORANGE, YELLOW, GREEN, CYAN, BLUE, MAGENTA };
         static int colorIdx = 0;
 
         LCD_SetTextColor(trailColors[colorIdx]);
         LCD_FillCircle(currentBall.x, currentBall.y, BALL_RADIUS + 1);
-
         colorIdx = (colorIdx + 1) % (sizeof(trailColors) / sizeof(trailColors[0]));
-      }else if (gState == GS_HR && ballHitFly) {
+				
+      }else if (gState == GS_HR && ballHitFly){
+				
+				//HR derby effect
         LCD_SetTextColor(RED);
         LCD_FillCircle(currentBall.x, currentBall.y, BALL_RADIUS + 1);
         LCD_SetTextColor(ORANGE);
         LCD_FillCircle(currentBall.x, currentBall.y, BALL_RADIUS);
         LCD_SetTextColor(YELLOW);
         LCD_FillCircle(currentBall.x, currentBall.y, BALL_RADIUS - 1);
+				
       }else{
+				
         LCD_SetTextColor(WHITE);
         LCD_FillCircle(currentBall.x, currentBall.y, BALL_RADIUS);
+				
       }
     }
 
@@ -561,6 +567,7 @@ void UpdateBall(void)
     ballInZone = in_zone_x && in_zone_y;
 
     if (ballInZone && swingFlag && !ballAlreadyHit) {
+			
         int dx = currentBall.x - batX;
         int dy = currentBall.y - batY;
         int dist2 = dx * dx + dy * dy;
@@ -646,7 +653,8 @@ void UpdateBall(void)
     }
 }
 
-
+//====================================
+//Swing
 void PlayerSwing(int touchX, int touchY) {
     swingTimer = SWING_DURATION;
     batX = touchX;
@@ -669,6 +677,8 @@ void PlayerSwing(int touchX, int touchY) {
         ballAlreadyHit = 0;
     }
 }
+//=======================================
+//Menu
 void ShowGameModeMenu(void)
 {
     LCD_Clear(BLACK);
@@ -703,7 +713,8 @@ void InitHRDerby(void)
     else                useLegendBatter = 0;
 }
 
-
+//===================================
+//Main geme-loop
 void GameLoop(void)
 {
     TS_StateTypeDef ts;
