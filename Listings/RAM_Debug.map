@@ -2810,19 +2810,19 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-         0          0       4048          0          0        569   baseball.o
-       534         28          0          0          0       3891   driver_spi.o
-      5110        662         99         48        136      12691   game.o
-       400         84          0          0         16       4200   hardwaresystem_ini.o
-      1564        100        113          0          4       8102   main_samp.o
-        64         26        392          0       1536        912   startup_stm32f407xx.o
-      2304         84      13680         32         30      32798   stm324xg_lcd_ili9328.o
-       232         12          0          0          0       8172   stm32f4xx_fsmc.o
-       318         20          0          0         24       4850   touch_module.o
-       280         40          0          0         48       4749   user_defined.o
+         0          0       4048          0          0        538   baseball.o
+       534         28          0          0          0       3860   driver_spi.o
+      5110        662         99         48        136      12660   game.o
+       400         84          0          0         16       4169   hardwaresystem_ini.o
+      1564        100        113          0          4       8071   main_samp.o
+        64         26        392          0       1536        892   startup_stm32f407xx.o
+      2304         84      13680         32         30      32767   stm324xg_lcd_ili9328.o
+       232         12          0          0          0       8141   stm32f4xx_fsmc.o
+       318         20          0          0         24       4819   touch_module.o
+       280         40          0          0         48       4718   user_defined.o
 
     ----------------------------------------------------------------------
-     10816       1056      18364         80       1796      80934   Object Totals
+     10816       1056      18364         80       1796      80635   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         10          0          0          0          2          0   (incl. Padding)
 
@@ -2904,8 +2904,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     13792       1242      18456         80       2120      82402   Grand Totals
-     13792       1242      18456         80       2120      82402   ELF Image Totals
+     13792       1242      18456         80       2120      82103   Grand Totals
+     13792       1242      18456         80       2120      82103   ELF Image Totals
      13792       1242      18456         80          0          0   ROM Totals
 
 ==============================================================================
